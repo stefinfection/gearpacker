@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "gearpacker"
+  },
+  "hostingPlanName": {
+    "value": "ServicePlan360d3181-a33b"
+  },
+  "siteLocation": {
+    "value": "South Central US"
+  },
+  "sku": {
+    "value": "Standard"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "968170dc-6e98-4d90-bd98-63fc461abffa"
+  },
+  "resourceGroup": {
+    "value": "Outdoors"
+  }
+}

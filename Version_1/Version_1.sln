@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Version_1", "Version_1\Version_1.csproj", "{F7D95345-6C68-4F63-927D-11D48CFA6ACE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{D7BD5B9A-F9DD-488D-A34E-E242F1ED1255}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{ECA30CE1-F82A-42FF-8632-BAAA725B4397}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{5190F606-CAED-412A-9BCA-DC609E220378}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\Version1.json = PublishScripts\Templates\Version1.json
+		PublishScripts\Templates\Version1.param.dev.json = PublishScripts\Templates\Version1.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D95345-6C68-4F63-927D-11D48CFA6ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D95345-6C68-4F63-927D-11D48CFA6ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D95345-6C68-4F63-927D-11D48CFA6ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D95345-6C68-4F63-927D-11D48CFA6ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECA30CE1-F82A-42FF-8632-BAAA725B4397} = {D7BD5B9A-F9DD-488D-A34E-E242F1ED1255}
+		{5190F606-CAED-412A-9BCA-DC609E220378} = {D7BD5B9A-F9DD-488D-A34E-E242F1ED1255}
+	EndGlobalSection
+EndGlobal
